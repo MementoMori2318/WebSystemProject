@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 1em;
+}
+.grid-container > div {
+    padding: 1em;
+    margin: 15px;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+}
+.book-container img {
+    height: 150px;
+    width: 110px;
+    transition: 1s;
+}
+.book-container { 
+    grid-row: 1/3; 
+}
+.book-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+.books {
+    padding: 10px;
+    display: flex;
+    justify-items: end;
+
+}
+.book-cover img:hover {
+    transform: scale(1.1);
+}
+.books a {
+    padding: 0;
+    color: rgb(9, 9, 61);
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+.books a:hover {
+    background-color: #d3e4f3;
+}
+.side-bar {
+    grid-row: 2/1;
+}
+.side-bar2 {
+    grid-row: 2/2;
+    
+}
+.side-bar a {
+    background-color: #d3e4f3;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: rgb(41, 41, 107);
+    font-weight: 100;
+}  
+.side-bar a:hover {
+    background-color: #a7cff7;
+} 
