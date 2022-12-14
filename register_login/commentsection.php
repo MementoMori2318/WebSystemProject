@@ -3,10 +3,12 @@
     include 'includes/dbh.inc.php';
     include 'includes/comments.inc.php';
 ?>
-<link rel="stylesheet" type="text/css" href="css/comment.css">
+<link rel="stylesheet" type="text/css" href="css/comments.css">
 <div class="comment-container">
 <?php
+echo "<div class='review'>";
 echo "<p>Write a Review</p>";
+echo "</div>";
 if(isset($_SESSION["userid"])) {
     echo "<form method='POST' action='".setComments($conn)."'>
     <input type='hidden' name='uid' value='" .$_SESSION["userid"]."'>

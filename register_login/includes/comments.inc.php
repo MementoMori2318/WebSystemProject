@@ -1,4 +1,3 @@
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 <?php
 ob_start();
 function setComments($conn){
@@ -53,7 +52,6 @@ function editComments($conn){
         $uid = $_POST['uid'];
         $date = $_POST['date'];
         $message = $_POST['message'];
-
         $sql = "UPDATE comments SET message='$message' WHERE cid='$cid'";
         $result = $conn->query($sql);
         header("Location: ./book.php");
@@ -65,6 +63,7 @@ function deleteComments($conn){
         $sql = "DELETE  FROM comments WHERE cid='$cid'";
         $result = $conn->query($sql);
         header("Location: ./book.php");
+        exit;
     }  
 }
 ob_end_flush();
