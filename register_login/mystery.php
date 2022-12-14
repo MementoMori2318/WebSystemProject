@@ -11,112 +11,59 @@
             <div class="book-holder">
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/dc.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/153874006-dream-catcher-prologue" target="_blank">Dream Catcher</a>
+                        <p>by:<a href="https://www.wattpad.com/user/SheHopes" target="_blank">SheHopes</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/th.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/23849039-tantei-high-erityian-tribes-1-published-under-pop" target="_blank">Tantei High</a>
+                        <p>by:<a href="https://www.wattpad.com/user/purpleyhan" target="_blank">purpleyhan</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/pjl.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/188768120-project-loki-volume-1-chapter-01-detective-of" target="_blank">Project Loki: Volume 1</a>
+                        <p>by:<a href="https://www.wattpad.com/user/AkoSiIbarra" target="_blank">AkoSiIbarra</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/df.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/217632824-detective-files-file-1-published-under-psicom" target="_blank">Detective Files 1</a>
+                        <p>by:<a href="https://www.wattpad.com/user/ShinichiLaaaabs" target="_blank">ShinicLaaaabs</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/hu.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/27714531-harrison-university-the-school-of-monsters" target="_blank">OverLord</a>
+                        <p>by:<a href="https://www.wattpad.com/user/GHIEbeloved" target="_blank">GHIEbeloved</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/ram.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/152879422-the-runaway-model-i-the-night-before" target="_blank">The Runaway Model</a>
+                        <p>by:<a href="https://www.wattpad.com/user/greenwriter" target="_blank">greenwriter</a></p>
                     </div>
                 </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
+               
              
         </div>
     </div>
@@ -126,7 +73,7 @@
         <a href="fiction.php">Fiction</a>
         <a href="action.php">Action</a>
         <a href="mystery.php">Mystery</a>
-        <a href="ad.php">Action & Adventure</a>
+        <a href="ad.php">Adventure</a>
         <a href="fantasy.php">Fantasy</a>
         <a href="drama.php">Drama</a>
     </div>
