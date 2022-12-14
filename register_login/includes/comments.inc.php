@@ -21,34 +21,33 @@ function getComments($conn){
         $sql2 ="SELECT * FROM ita212exercise WHERE usersID='$id'";
         $result2 = $conn->query($sql2);
         if ($row2 = $result2->fetch_assoc()) {
-            echo "<div class=comment-box>";
-                echo "<div class=comment-user>";
-                    echo $row2['usersUid'];
+                echo "<div class=comment-box>";
+                    echo "<div class=comment-user>";
+                        echo $row2['usersUid'];
+                    echo "</div>";
+                    echo "<div class=comment-date>";
+                        echo $row['date'];
+                    echo "</div>";
+                    echo "<p>";
+                    echo nl2br($row['message']);
+                    echo "</p>";
+                    if (isset($_SESSION['userid'])) {
+                    if ($_SESSION['userid'] == $row2['usersID']) {
+                        echo"<form class='delete-btn' action='".deleteComments($conn)."' method='POST'>
+                            <input type='hidden' name='cid' value='". $row['cid']."'>
+                            <button type='submit' name='commentDelete'>Delete</button>
+                        </form>
+                        <form class='edit-btn' action='./editcomment.php' method='POST'>
+                            <input type='hidden' name='cid' value='". $row['cid']."'>
+                            <input type='hidden' name='uid' value='". $row['uid']."'>
+                            <input type='hidden' name='date' value='". $row['date']."'>
+                            <input type='hidden' name='message' value='". $row['message']."'>
+                            <button>Edit</button>
+                        </form>";
+                    }
+                }  
                 echo "</div>";
-                echo "<div class=comment-date>";
-                    echo $row['date'];
-                echo "</div>";
-                echo "<p>";
-                echo nl2br($row['message']);
-                echo "</p>";
-                if (isset($_SESSION['userid'])) {
-                if ($_SESSION['userid'] == $row2['usersID']) {
-                    echo"<form class='delete-btn' action='".deleteComments($conn)."' method='POST'>
-                        <input type='hidden' name='cid' value='". $row['cid']."'>
-                        <button type='submit' name='commentDelete'>Delete</button>
-                    </form>
-                    <form class='edit-btn' action='./editcomment.php' method='POST'>
-                        <input type='hidden' name='cid' value='". $row['cid']."'>
-                        <input type='hidden' name='uid' value='". $row['uid']."'>
-                        <input type='hidden' name='date' value='". $row['date']."'>
-                        <input type='hidden' name='message' value='". $row['message']."'>
-                        <button>Edit</button>
-                    </form>";
-                }
-            }  
-            echo "</div>";
-        }
-       
+            }
     } 
     
 }

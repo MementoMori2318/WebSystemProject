@@ -17,6 +17,8 @@ if(isset($_SESSION["userid"])) {
 }else {
     echo "<p class='commentLogin'>You must be <a href = 'login.php'>Logged in</a> to post a review.<a href = 'register.php'>Register</a> an account to get started.</p>";
 }
+echo "<div class=comment-box-container>";
 getComments($conn);
+echo "</div>";
 ?>
 </div>

@@ -5,7 +5,17 @@
     margin-right: 100px;
     padding: 10px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
 
+}
+.comment-container p {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+.comment-box-container{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 300px;
 }
 textarea {
     resize: vertical;
@@ -34,6 +44,7 @@ button {
     background-color: #ddd;
     border-radius: 4px;
     position: relative;
+    
 }
 .comment-box p{
     font-size: 15px;
