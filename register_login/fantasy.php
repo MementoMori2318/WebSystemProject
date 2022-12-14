@@ -11,110 +11,56 @@
             <div class="book-holder">
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/ca.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/29487007-charm-academy-school-of-magic-published-under" target="_blank">Charm Academy: School of Magic</a>
+                        <p>by:<a href="https://www.wattpad.com/user/april_avery" target="_blank">april_avery</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/wda.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/14020560-wonderland-magical-academy-touch-of-fire-cloak" target="_blank">Wonderland Magical Academy: Touch of Fire</a>
+                        <p>by:<a href="https://www.wattpad.com/user/Missmaple" target="_blank">Missmaple</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/guardians.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/105414402-guardians-prologue" target="_blank">Guardians</a>
+                        <p>by:<a href="https://www.wattpad.com/user/purpleyhan" target="_blank">purpleyhan</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/ld.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/172002499-lucid-dream-intro" target="_blank">Lucid Dream</a>
+                        <p>by:<a href="https://www.wattpad.com/user/alyloony" target="_blank">alyloony</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/paladin.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/2356007-paladin-chapter-1-prologue" target="_blank">Paladin</a>
+                        <p>by:<a href="https://www.wattpad.com/user/SallySlater" target="_blank">SallySlater</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/mba.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/2971204-marked-by-the-alpha-chapter-1" target="_blank">Marked by the Alpha</a>
+                        <p>by:<a href="https://www.wattpad.com/user/zabellerain" target="_blank">zabellarian</a></p>
                     </div>
                 </div>
              
@@ -126,7 +72,7 @@
         <a href="fiction.php">Fiction</a>
         <a href="action.php">Action</a>
         <a href="mystery.php">Mystery</a>
-        <a href="ad.php">Action & Adventure</a>
+        <a href="ad.php">Adventure</a>
         <a href="fantasy.php">Fantasy</a>
         <a href="drama.php">Drama</a>
     </div>
