@@ -116,3 +116,24 @@ button {
     background-color: #03273f;
     color: #fff;
 }
+.comment-box-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.comment-box-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+.comment-box-container::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px;
+    height: 40px;
+  }
+  
+  /* Handle on hover */
+.comment-box-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

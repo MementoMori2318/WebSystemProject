@@ -63,7 +63,5 @@ function deleteComments($conn){
         $sql = "DELETE  FROM comments WHERE cid='$cid'";
         $result = $conn->query($sql);
         header("Location: ./book.php");
-        exit;
     }  
 }
-ob_end_flush();
