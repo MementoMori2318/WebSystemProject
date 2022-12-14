@@ -5,7 +5,7 @@
     <div class="register-form-container">
     <section class="register-form">    
     <h2>Register</h2>
-    <form action="includes/register.inc.php" method="post">
+    <form action="includes/register.inc.php" method='POST'>
         <input type = "text" name="name" placeholder="Name" >
         <input type = "email" name="email" placeholder="Email" >
         <input type = "text" name="uid" placeholder="Username" >

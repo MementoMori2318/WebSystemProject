@@ -1,8 +1,8 @@
 .comment-container{
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 10px;
     background-color: #ddd;
 }
@@ -37,7 +37,7 @@ button {
 }
 .edit-btn {
     position: absolute;
-    top: 3px;
+    top: 0px;
     right: 3px;
 }
 .edit-btn button{
@@ -50,5 +50,22 @@ button {
     opacity: 0.7;
 }
 .edit-btn button:hover{
+    opacity: 1;
+}
+.delete-btn {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.delete-btn button{
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    color: #282828;
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;  
+    opacity: 0.7;
+}
+.delete-btn button:hover{
     opacity: 1;
 }
