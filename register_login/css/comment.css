@@ -4,14 +4,17 @@
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
-    background-color: #ddd;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
 }
 textarea {
-    resize: none;
-    width: 800px;
-    height: 40px;
+    resize: vertical;
+    width: 100%;
+    min-height: 50px;
+    max-height: 500px;
     background-color: #fff;
     font-size: 15px;
+    
 }
 button {
     background-color: #2F4B5E;
@@ -22,22 +25,26 @@ button {
     width: 100px;
     height: 50px;
     margin-bottom: 16px;
+    border-radius: 4px;
 }
 .comment-box{
     width: 750;
     padding: 20px;
     margin-bottom: 4px;
-    background-color: #fff;
+    background-color: #ddd;
     border-radius: 4px;
     position: relative;
 }
 .comment-box p{
     font-size: 15px;
     font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    border-bottom:1ps dotted #ddd;
+    
 }
 .edit-btn {
     position: absolute;
-    top: 0px;
+    bottom: 0px; 
     right: 3px;
 }
 .edit-btn button{
@@ -45,7 +52,7 @@ button {
     height: 20px;
     border-radius: 5px;
     color: #282828;
-    background-color: #fff;
+    background-color: #ddd;
     font-family: 'PT Sans', sans-serif;  
     opacity: 0.7;
 }
@@ -54,18 +61,44 @@ button {
 }
 .delete-btn {
     position: absolute;
-    top: 0px;
+    bottom:  0px;
     right: 50px;
 }
 .delete-btn button{
     width: 40px;
     height: 20px;
     border-radius: 5px;
-    color: #282828;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ddd;
     font-family: 'PT Sans', sans-serif;  
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .delete-btn button:hover{
-    opacity: 1;
+    opacity: 2;
+}
+.commentLogin {
+    font-family: 'PT Sans', sans-serif;
+    padding: 25px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.comment-container a {
+    color: rgb(9, 9, 61);;
+    padding: 0px;
+    font-weight: 100;
+}
+.comment-container a:hover {
+    color: red;
+}
+.comment-user {
+    font-family: 'PT Sans', sans-serif;
+    top: 0px;
+    left: 3px;
+    position: absolute;
+}
+.comment-date {
+    font-family: 'PT Sans', sans-serif;
+    top: 0px;
+    right: 3px;
+    position: absolute;
 }

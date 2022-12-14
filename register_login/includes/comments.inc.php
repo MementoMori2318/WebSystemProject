@@ -9,8 +9,8 @@ function setComments($conn){
 
         $sql = "INSERT INTO comments(uid, date, message) VALUES ('$uid', '$date', '$message')";
         $result = $conn->query($sql);
+
     }
-    
 }
 
 function getComments($conn){
@@ -21,13 +21,18 @@ function getComments($conn){
         $sql2 ="SELECT * FROM ita212exercise WHERE usersID='$id'";
         $result2 = $conn->query($sql2);
         if ($row2 = $result2->fetch_assoc()) {
-            echo "<div class=comment-box><p>";
-            echo $row2['usersUid']."<br>";
-            echo $row['date']."<br>";
-            echo nl2br($row['message']);
-            echo "</p>";
-            if (isset($_SESSION['usersUid'])) {
-                if ($_SESSION['usersUid'] == $row2['usersid']) {
+            echo "<div class=comment-box>";
+                echo "<div class=comment-user>";
+                    echo $row2['usersUid'];
+                echo "</div>";
+                echo "<div class=comment-date>";
+                    echo $row['date'];
+                echo "</div>";
+                echo "<p>";
+                echo nl2br($row['message']);
+                echo "</p>";
+                if (isset($_SESSION['userid'])) {
+                if ($_SESSION['userid'] == $row2['usersID']) {
                     echo"<form class='delete-btn' action='".deleteComments($conn)."' method='POST'>
                         <input type='hidden' name='cid' value='". $row['cid']."'>
                         <button type='submit' name='commentDelete'>Delete</button>
@@ -56,7 +61,7 @@ function editComments($conn){
 
         $sql = "UPDATE comments SET message='$message' WHERE cid='$cid'";
         $result = $conn->query($sql);
-        header("Location:book.php");
+        header("Location:./book.php");
     }
 }
 function deleteComments($conn){
