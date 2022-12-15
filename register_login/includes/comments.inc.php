@@ -29,7 +29,7 @@ function getComments($conn){
                     echo"</p>";
                     if (isset($_SESSION['userid'])) {
                     if ($_SESSION['userid'] == $row2['usersID']) {
-                        echo"<form class='delete-btn' action='".deleteComments($conn)."' method='POST'>
+                        echo"<form class='delete-btn' action='includes/deleteComments.php' method='POST'>
                             <input type='hidden' name='cid' value='". $row['cid']."'>
                             <button type='submit' name='commentDelete'>Delete</button>
                         </form>
@@ -54,15 +54,16 @@ function editComments($conn){
         $message = $_POST['message'];
         $sql = "UPDATE comments SET message='$message' WHERE cid='$cid'";
         $result = $conn->query($sql);
-        header("Location: ./book.php");
+        // header("Location: ./book.php");
     }
 }
-function deleteComments($conn){
-    if (isset($_POST['commentDelete'])){
-        $cid = $_POST['cid'];
-        $sql = "DELETE FROM comments WHERE `comments`.`cid` = $cid";
-        // $sql = "DELETE FROM comments WHERE cid='$cid'";
-        $result = $conn->query($sql);
-        header("location: book.php");
-    }  
-}
+// function deleteComments($conn){
+//     if (isset($_POST['commentDelete'])){
+//         $cid = $_POST['cid'];
+//         $sql = "DELETE FROM comments WHERE `comments`.`cid` = $cid";
+//         // $sql = "DELETE FROM comments WHERE cid='$cid'";
+//         $result = $conn->query($sql);
+//         header("Location: comments2.php");
+        
+//     }  
+// }
