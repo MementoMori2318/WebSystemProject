@@ -1,10 +1,10 @@
 <?php
-    include_once 'header.php';
+include 'header.php';
 ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/books.css">
+<link rel="stylesheet" href="css/book.css">
 <div class="grid-container">
     <div class="book-container">
         <h2>Sample Books you can Read Online</h2><hr>

@@ -28,7 +28,7 @@ body {
     margin: 10px;
 }
 .books {
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-items: end;
 
@@ -36,12 +36,21 @@ body {
 .book-cover img:hover {
     transform: scale(1.1);
 }
-.books a {
+.books a  {
     padding: 0;
     color: rgb(9, 9, 61);
     font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
+    margin-left: 10px;
+}
+.books p  {
+    padding: 0;
+    color: rgb(9, 9, 61);
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
 }
 .books a:hover {
     background-color: #d3e4f3;

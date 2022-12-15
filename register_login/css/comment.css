@@ -100,14 +100,14 @@ button {
 }
 .comment-user {
     font-family: 'PT Sans', sans-serif;
-    top: 0px;
-    left: 3px;
+    top: 3px;
+    left: 10px;
     position: absolute;
 }
 .comment-date {
     font-family: 'PT Sans', sans-serif;
-    top: 0px;
-    right: 3px;
+    top: 3px;
+    right: 10px;
     position: absolute;
 }
 .review {
@@ -117,7 +117,7 @@ button {
     color: #fff;
 }
 .comment-box-container::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
   
   /* Track */
