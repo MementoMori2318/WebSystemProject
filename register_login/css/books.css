@@ -39,15 +39,15 @@ body {
 .books a  {
     padding: 0;
     color: rgb(9, 9, 61);
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     margin-left: 10px;
 }
 .books p  {
     padding: 0;
-    color: rgb(9, 9, 61);
-    font-size: 16px;
+    color: rgb(19, 19, 124);
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     margin-left: 10px;
@@ -63,13 +63,14 @@ body {
     
 }
 .side-bar a {
-    background-color: #d3e4f3;
+    background-color: #77b7fc7c;
     margin: 5px;
-    font-size: 18px;
+    font-size: 23px;
     border-radius: 4px;
-    color: rgb(41, 41, 107);
+    color: #000;
     font-weight: 100;
 }  
 .side-bar a:hover {
-    background-color: #a7cff7;
+    background-color: #94c4f5;
+    
 } 

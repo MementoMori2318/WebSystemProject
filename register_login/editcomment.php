@@ -16,7 +16,7 @@ echo "<form method='POST' action='".editComments($conn)."'>
     <input type='hidden' name='uid' value='".$uid."'>
     <input type='hidden' name='date' value='".$date."'>
     <textarea name='message'>".$message."</textarea><br>
-    <button type='submit' name='commentSubmit'>Edit</button>
+    <button class='commentbutton' type='submit' name='commentSubmit'>Edit</button>
 
 </form>";
 

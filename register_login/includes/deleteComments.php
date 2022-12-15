@@ -13,8 +13,8 @@
 
     if (isset($_POST['commentDelete'])){
         $cid = $_POST['cid'];
-        $sql = "DELETE FROM comments WHERE `comments`.`cid` = $cid";
-        // $sql = "DELETE FROM comments WHERE cid='$cid'";
+        //$sql = "DELETE FROM comments WHERE `comments`.`cid` = $cid";
+        $sql = "DELETE FROM comments WHERE cid='$cid'";
         $result = $conn->query($sql);
         echo "TEST";
         header("Location: ../book.php");

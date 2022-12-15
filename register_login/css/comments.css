@@ -23,28 +23,33 @@ textarea {
     font-size: 15px;
     
 }
-button {
+.commentbutton  {
     background-color: #2F4B5E;
     color: #ffffff;
     border: none;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 18px;
     width: 100px;
     height: 50px;
     margin-bottom: 16px;
     border-radius: 4px;
 }
+button {
+    border: none;
+    font-size: 15px;
+}
 .comment-box{
     width: 750;
     padding: 20px;
     margin-bottom: 4px;
-    background-color: #ddd;
-    border-radius: 4px;
+    border: 1px solid #03273f;
     position: relative;
-    
+    margin: 10px;
+    padding: 0px;
 }
 .comment-box p{
-    font-size: 15px;
+    margin: 5px;
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
     padding: 10px;
     border-bottom:1ps dotted #ddd;
@@ -59,8 +64,9 @@ button {
     width: 40px;
     height: 20px;
     border-radius: 5px;
-    color: #282828;
-    background-color: #ddd;
+    font-size: 18px;
+    color: #1d1b1b;
+    background-color: #fff;
     font-family: 'PT Sans', sans-serif;  
     opacity: 0.7;
 }
@@ -70,19 +76,20 @@ button {
 .delete-btn {
     position: absolute;
     bottom:  0px;
-    right: 50px;
+    right: 60px;
 }
 .delete-btn button{
     width: 40px;
     height: 20px;
     border-radius: 5px;
-    color: #000000;
-    background-color: #ddd;
+    font-size: 18px;
+    color: #1d1b1b;
+    background-color: #fff;
     font-family: 'PT Sans', sans-serif;  
     opacity: 0.8;
 }
 .delete-btn button:hover{
-    opacity: 2;
+    opacity: 1;
 }
 .commentLogin {
     font-family: 'PT Sans', sans-serif;
@@ -98,22 +105,24 @@ button {
 .comment-container a:hover {
     color: red;
 }
-.comment-user {
+.comment-user-date-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #116399cb;
+    color: #fff;
     font-family: 'PT Sans', sans-serif;
-    top: 3px;
-    left: 10px;
-    position: absolute;
-}
-.comment-date {
-    font-family: 'PT Sans', sans-serif;
-    top: 3px;
-    right: 10px;
-    position: absolute;
+    font-size: 20px;
+    padding: 10px;
 }
 .review {
     padding: 10px;
     margin-bottom: 5px;
-    background-color: #03273f;
+    background-color: #116399cb;
+    color: #fff;
+}
+.review p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
     color: #fff;
 }
 .comment-box-container::-webkit-scrollbar {
@@ -128,7 +137,7 @@ button {
    
   /* Handle */
 .comment-box-container::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #116399cb; 
     border-radius: 4px;
     height: 40px;
   }

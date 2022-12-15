@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/book.css">
+<link rel="stylesheet" href="css/books.css">
 <div class="grid-container">
     <div class="book-container">
         <h2>Nonfiction Books you can Read Online</h2><hr>
@@ -42,7 +42,25 @@
                     </div>
                     <div class="book-title">
                         <a href="https://www.wattpad.com/934406209-4-hearts-💔c-h-a-p-t-e-r-o-n-e💔" target="_blank">4 Hearts</a>
-                        <p>by:<a href="#"> AlexChaves1155</a></p>
+                        <p>by:<a href="#">AlexChaves1155</a></p>
+                    </div>
+                </div>
+                <div class="books">
+                    <div class="book-cover">
+                        <img src="./logos/thechameleon.jpg" alt="">
+                    </div>
+                    <div class="book-title">
+                        <a href="https://www.wattpad.com/934406209-4-hearts-💔c-h-a-p-t-e-r-o-n-e💔" target="_blank">The Chameleon's Secret</a>
+                        <p>by:<a href="#">Daniel Crazsh</a></p>
+                    </div>
+                </div>
+                <div class="books">
+                    <div class="book-cover">
+                        <img src="./logos/emotion.jpg" alt="">
+                    </div>
+                    <div class="book-title">
+                        <a href="https://www.wattpad.com/934406209-4-hearts-💔c-h-a-p-t-e-r-o-n-e💔" target="_blank">Emotion 🚬</a>
+                        <p>by:<a href="#">POV</a></p>
                     </div>
                 </div>
                
@@ -55,7 +73,7 @@
         <a href="fiction.php">Fiction</a>
         <a href="action.php">Action</a>
         <a href="mystery.php">Mystery</a>
-        <a href="ad.php">Action & Adventure</a>
+        <a href="ad.php">Adventure</a>
         <a href="fantasy.php">Fantasy</a>
         <a href="drama.php">Drama</a>
     </div>

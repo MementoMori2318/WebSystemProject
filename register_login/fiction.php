@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/book.css">
+<link rel="stylesheet" href="css/books.css">
 <div class="grid-container">
     <div class="book-container">
         <h2>Fiction Books you can Read Online</h2><hr>
@@ -54,7 +54,7 @@
         <a href="fiction.php">Fiction</a>
         <a href="action.php">Action</a>
         <a href="mystery.php">Mystery</a>
-        <a href="ad.php">Action & Adventure</a>
+        <a href="ad.php">Adventure</a>
         <a href="fantasy.php">Fantasy</a>
         <a href="drama.php">Drama</a>
     </div>

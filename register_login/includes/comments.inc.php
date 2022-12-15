@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="css/comments.css">
 <?php
 ob_start();
 function setComments($conn){
@@ -18,11 +19,13 @@ function getComments($conn){
         $result2 = $conn->query($sql2);
         if ($row2 = $result2->fetch_assoc()) {
                 echo"<div class=comment-box>";
-                    echo"<div class=comment-user>";
-                        echo"by:". $row2['usersUid'];
-                    echo"</div>";
-                    echo"<div class=comment-date>";
-                        echo$row['date'];
+                    echo"<div class=comment-user-date-container>";
+                        echo"<div class=comment-user>";
+                            echo"by:". $row2['usersUid'];
+                        echo"</div>";
+                        echo"<div class=comment-date>";
+                            echo$row['date'];
+                        echo"</div>";
                     echo"</div>";
                     echo"<p>";
                     echo nl2br($row['message']);
@@ -54,7 +57,7 @@ function editComments($conn){
         $message = $_POST['message'];
         $sql = "UPDATE comments SET message='$message' WHERE cid='$cid'";
         $result = $conn->query($sql);
-        // header("Location: ./book.php");
+        header("Location: ./book.php");
     }
 }
 // function deleteComments($conn){
