@@ -1,7 +1,7 @@
 <?php
     include_once 'header.php';
 ?>
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/indexx.css">
 <div class="home-container">
     <p class="lis-title">Library Information System</p>
     <p class="lis">"The man who does not read good books is no better than the man who can't."</p>

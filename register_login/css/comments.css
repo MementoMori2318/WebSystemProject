@@ -49,7 +49,7 @@ button {
 }
 .comment-box p{
     margin: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     padding: 10px;
     border-bottom:1ps dotted #ddd;
@@ -118,11 +118,6 @@ button {
     padding: 10px;
     margin-bottom: 5px;
     background-color: #116399cb;
-    color: #fff;
-}
-.review p{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
     color: #fff;
 }
 .comment-box-container::-webkit-scrollbar {
