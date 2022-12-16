@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="css/comments.css">
+<link rel="stylesheet" type="text/css" href="css/comment.css">
 <?php
 ob_start();
 function setComments($conn){

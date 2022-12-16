@@ -7,42 +7,42 @@
 <link rel="stylesheet" href="css/book.css">
 <div class="grid-container">
     <div class="book-container">
-        <h2>Action & Adventure Books you can Read Online</h2><hr>
+        <h2>Adventure Books you can Read Online</h2><hr>
             <div class="book-holder">
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/therune.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.scribblehub.com/read/117137-the-runesmith/chapter/117153/">The Runesmith</a>
+                        <p>by:<a href="#">Kuropon</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/worldkeeper.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.scribblehub.com/read/10442-world-keeper/chapter/10445/">World Keeper</a>
+                        <p>by:<a href="#">karami92</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/treeofaens.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.scribblehub.com/read/10700-tree-of-aeons-an-isekai-story/chapter/10701/">Tree of Aeons</a>
+                        <p>by:<a href="#">Spaizzer</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/unfathomable.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.scribblehub.com/read/69701-unfathomable-senior/chapter/69706/">Unfathomable Senior</a>
+                        <p>by:<a href="#">Kuropon</a></p>
                     </div>
                 </div>
                 <div class="books">
@@ -131,7 +131,7 @@
         <a href="drama.php">Drama</a>
     </div>
     <div class="side-bar2">
-        <h2>Action and Adventure</h2><hr>
+        <h2>Adventure</h2><hr>
         <p>Featuring characters involved in exciting and usually dangerous activities and adventures. .</p>
     </div>
 </div>

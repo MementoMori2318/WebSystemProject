@@ -3,7 +3,7 @@
     include 'includes/dbh.inc.php';
     include 'includes/comments.inc.php';
 ?>
-<link rel="stylesheet" type="text/css" href="css/comments.css">
+<link rel="stylesheet" type="text/css" href="css/comment.css">
 <div class="comment-container">
 <?php
 echo "<div class='review'>";
