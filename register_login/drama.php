@@ -11,112 +11,59 @@
             <div class="book-holder">
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/heartless.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/25387005-heartless-published-under-sizzle-and-mpress-simula" target="_blank">Heartless</a>
+                        <p>by:<a href="https://www.wattpad.com/user/jonaxx" target="_blank">jonaxx</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/tpg.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/119464962-that-promdi-girl-published-simula" target="_blank">That Promdi Girl</a>
+                        <p>by:<a href="https://www.wattpad.com/user/owwSIC" target="_blank">oowSIC</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/oas.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/407431001-our-asymptotic-love-story-published-by-bookware" target="_blank">Our Astmptotic Love Story</a>
+                        <p>by:<a href="https://www.wattpad.com/user/UndeniablyGorgeous" target="_blank">UndeniablyGorgeous</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/saa.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/47875197-stay-awake-agatha-published-under-psicom-stay" target="_blank">Stay Awake Agatha</a>
+                        <p>by:<a href="https://www.wattpad.com/user/Serialsleeper" target="_blank">SerialSleeper</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/whatif.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/67374807-just-if-what-if-it%27s-love-published-under-summit" target="_blank">What if it's Love?</a>
+                        <p>by:<a href="https://www.wattpad.com/user/SiMarcoJoseAko" target="_blank">SiMarcoJoseAko</a></p>
                     </div>
                 </div>
                 <div class="books">
                     <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
+                        <img src="./logos/etw.jpg" alt="">
                     </div>
                     <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
+                        <a href="https://www.wattpad.com/28843412-end-this-war-alegria-boys-3-published-under-mpress" target="_blank">End This War</a>
+                        <p>by:<a href="https://www.wattpad.com/user/jonaxx" target="_blank">jonaxx</a></p>
                     </div>
                 </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
-                <div class="books">
-                    <div class="book-cover">
-                        <img src="./logos/overlord_ln.jpeg" alt="">
-                    </div>
-                    <div class="book-title">
-                        <a href="">OverLord</a>
-                        <p>by:<a href="#">Maruyama Kugane</a></p>
-                    </div>
-                </div>
+                
              
         </div>
     </div>
